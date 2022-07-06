@@ -1,0 +1,115 @@
+
+
+ *{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+
+  body{
+    background-image: url(images/pattern-background-desktop.svg);
+    background-repeat: no-repeat;
+    background-color: #e0e8ff;
+  }
+
+  .container{
+    width: 400px;
+    margin-top: 70px;
+  }
+
+  #pet{
+    border-radius: 10px 10px 0 0;
+  }
+
+  .card{
+    margin-top: -20px;
+    height: 550px;
+    width: 370px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 2px 4px 16px rgba(0, 0, 0, .2);
+  }
+
+  .head{
+    text-align: center;
+    font-size: 16px;
+    padding-top: 20px;
+    padding-bottom: 5px;
+  }
+  .head h2{
+    font-weight: bolder;
+    padding: 10px;
+  }
+
+  .head .para{
+    padding-left: 10px;
+    opacity: .7;
+  }
+  .logo{
+    background-color: hsl(225, 100%, 98%);
+    margin-left: 30px;
+    margin-right: 30px;
+    border-radius: 10px;
+  }
+
+  .logo #leb h4{
+    font-weight: bold;
+  }
+
+  .logo #leb p{
+    font-weight: 600;
+    opacity: .8;
+  }
+
+  .logo #yet{
+    padding-top: 12px;
+    padding-left: 20px;
+  }
+
+  .logo #wen{
+    padding-top: 20px;
+  }
+
+  .logo #wen a{
+    text-decoration: underline;
+    font-size: 16px;
+    color: hsl(245, 75%, 52%);
+  }
+
+  .logo #wen a:hover{
+    color: black;
+  }
+
+  .btn-groups{
+   text-align: center;
+}
+
+.btn{
+    
+    margin-bottom: 5px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+#til{
+    padding-left: 90px;
+    padding-right: 90px;
+    background-color: hsl(245, 75%, 52%);
+    color: white;
+    box-shadow: 2px 4px 16px rgba(0, 0, 0, .2);
+}
+
+.btn:focus{
+    border: none;
+    outline: none;
+}
+
+#uni{
+    background-color: white;
+    color: black;
+    opacity: .5;
+}
+
+#uni:focus{
+    background-color: hsl(225, 100%, 94%);
+}
