@@ -13,7 +13,7 @@
   }
 
   .container{
-    width: 400px;
+    max-width: 400px;
     margin-top: 70px;
   }
 
@@ -24,7 +24,7 @@
   .card{
     margin-top: -20px;
     height: 550px;
-    width: 370px;
+    max-width: 370px;
     background-color: white;
     border-radius: 10px;
     box-shadow: 2px 4px 16px rgba(0, 0, 0, .2);
